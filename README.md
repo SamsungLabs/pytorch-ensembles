@@ -130,5 +130,3 @@ If you found this code useful, please cite our paper
     url={https://openreview.net/forum?id=BJxI5gHKDr}
 }
 ```
-
-Disclaimer: This is not an official Samsung product.
