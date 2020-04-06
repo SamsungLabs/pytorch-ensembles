@@ -26,9 +26,9 @@ fi
 
 EPOCHS=160
 
-python train/cifar/fge_pretrain.py --dir="${BASE_DIR}/fge/${DATASET}_${ARCH}_it_${ITER}" --data_path="$DATA_PATH" --dataset="$DATASET" \
+ipython -- train/cifar/fge_pretrain.py --dir="${BASE_DIR}/fge/${DATASET}_${ARCH}_it_${ITER}" --data_path="$DATA_PATH" --dataset="$DATASET" \
     --transform=VGG --model="$ARCH" --epochs=$EPOCHS --wd=$WD --lr=$LR_INIT --save_freq=40
-python train/cifar/fge_train.py --dir="${BASE_DIR}/fge/${DATASET}_${ARCH}_it_${ITER}" --ckpt="${BASE_DIR}/fge/${DATASET}_${ARCH}_it_${ITER}/pretraining-${EPOCHS}.pt" \
+ipython -- train/cifar/fge_train.py --dir="${BASE_DIR}/fge/${DATASET}_${ARCH}_it_${ITER}" --ckpt="${BASE_DIR}/fge/${DATASET}_${ARCH}_it_${ITER}/pretraining-${EPOCHS}.pt" \
     --data_path="$DATA_PATH" --dataset=$DATASET --iter=$ITER \
     --transform=VGG --model="$ARCH" --epochs=$((100*CYCLE+10)) --wd=$WD --lr_1=$LR_1 --lr_2=$LR_2 --cycle=$CYCLE
 

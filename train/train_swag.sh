@@ -27,9 +27,9 @@ else
   TRANSFORM=ResNet
 fi
 
-python train/cifar/swag_train.py --data_path="$DATA_PATH" --epochs=300 --dataset="$DATASET" --save_freq=25 --model="$ARCH" \
+ipython -- train/cifar/swag_train.py --data_path="$DATA_PATH" --epochs=300 --dataset="$DATASET" --save_freq=25 --model="$ARCH" \
 --lr_init=$LR_INIT --wd=$WD --swa_start=160 --swa_lr=$LR_SWA --cov_mat --dir="${BASE_DIR}/swag/${DATASET}_${ARCH}_it_${ITER}" --max_num_models=20 \
 --transform=$TRANSFORM
-python train/cifar/swag_sample.py --data_path="$DATA_PATH" --dataset="$DATASET" --model="$ARCH" --cov_mat \
+ipython -- train/cifar/swag_sample.py --data_path="$DATA_PATH" --dataset="$DATASET" --model="$ARCH" --cov_mat \
 --method=SWAG --scale=0.5 --file="${BASE_DIR}/swag/${DATASET}_${ARCH}_it_${ITER}/swag_ensembled-300.pt" \
 --N=100 --max_num_models=20 --all_sample_nums --iter=$ITER --transform=$TRANSFORM

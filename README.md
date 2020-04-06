@@ -70,7 +70,7 @@ ipython -- ens/ens-swag.py    --dataset=CIFAR10/CIFAR100
 All the models trained on CIFAR use a single GPU for training.
 Examples of training commands:
 ```(bash)
-bash train/scripts/train_cifar.sh \
+bash train/train_cifar.sh \
 --dataset CIFAR10/CIFAR100 \
 --arch VGG16BN/PreResNet110/PreResNet164/WideResNet28x10 \
 --method regular/vi
@@ -112,7 +112,7 @@ ipython -- ens/ens-kfacl.py --file CHECKPOINT --data_path DATA --dataset CIFAR10
 
 Examples of training commands:
 ```
-bash train/scripts/train_imagenet.sh --method regular/sse/fge/vi
+bash train/train_imagenet.sh --method regular/sse/fge/vi
 ```
 
 We strongly recommend using multi-gpu training for Snapshot Ensembles. 
