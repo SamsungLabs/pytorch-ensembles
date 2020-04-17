@@ -48,7 +48,7 @@ optional arguments:
 * All scripts assume that `pytorch-ensembles` is the current working directory (`cd  pytorch-ensembles`).
 * The scripts will write .csv logs in `pytorch-ensembles/logs` in the following format `rowid, dataset, architecture, ensemble_method, n_samples, metric, value, info`. 
 * The [notebooks](./notebooks) folder contains ipython notebooks to reproduce the tables and plots using these logs
-* The scripts will write final log-probs of every method in '.npy' format to `pytorch-ensembles/megacache` folder. 
+* The scripts will write final log-probs of every method in '.npy' format to `pytorch-ensembles/.megacache` folder. 
 * The interface for K-FAC-Laplace differs and is described below.
 
 Examples:
