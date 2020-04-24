@@ -9,7 +9,7 @@ The work is done at:
 3. National Research University Higher School of Economics
 4. Skolkovo Institute of Science and Technology
 
-## Environment Setup:
+## Environment Setup
 
 The following allows to create and to run a python environment with all required dependencies using [miniconda](https://docs.conda.io/en/latest/miniconda.html): 
 
