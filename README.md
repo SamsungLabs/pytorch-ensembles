@@ -117,6 +117,16 @@ bash train/train_imagenet.sh --method regular/sse/fge/vi
 
 We strongly recommend using multi-gpu training for Snapshot Ensembles. 
 
+# Attribution
+
+Parts of this code are based on the following repositories:
+- [Stochastic Weight Averaging (SWA)](https://github.com/timgaripov/swa). Pavel Izmailov, Dmitrii Podoprikhin, Timur Garipov, Dmitry Vetrov, Andrew Gordon Wilson.
+- [A Simple Baseline for Bayesian Deep Learning](https://github.com/wjmaddox/swa_gaussian). Wesley Maddox, Timur Garipov, Pavel Izmailov,  Dmitry Vetrov, Andrew Gordon Wilson.
+- [Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning](https://github.com/ruqizhang/csgmcmc). Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen and Andrew Gordon Wilson.
+- [Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs](https://github.com/timgaripov/dnn-mode-connectivity).  Timur Garipov, Pavel Izmailov, Dmitrii Podoprikhin, Dmitry Vetrov and Andrew Gordon Wilson.
+- [PyTorch](https://github.com/pytorch/pytorch)
+- [PyTorch Examples](https://github.com/pytorch/examples/tree/ee964a2/imagenet)
+
 # Citation
 
 If you found this code useful, please cite our paper
