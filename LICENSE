@@ -5,10 +5,10 @@ All rights reserved.
 
 Parts of this software are based on the following repositories:
 - Stochastic Weight Averaging (SWA), https://github.com/timgaripov/swa, Copyright (c) 2018, Pavel Izmailov, Dmitrii Podoprikhin, Timur Garipov, Dmitry Vetrov, Andrew Gordon Wilson
-All rights reserved.
 - A Simple Baseline for Bayesian Deep Learning, https://github.com/wjmaddox/swa_gaussian, Copyright (c) 2019, Wesley Maddox, Timur Garipov, Pavel Izmailov,  Dmitry Vetrov, Andrew Gordon Wilson
 - PyTorch Examples, https://github.com/pytorch/examples/tree/ee964a2/imagenet, Copyright (c) 2017
-- Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning, https://github.com/ruqizhang/csgmcmc/tree/master/experiments, Zhang, Ruqi and Li, Chunyuan and Zhang, Jianyi and Chen, Changyou and Wilson, Andrew Gordon
+- Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning, https://github.com/ruqizhang/csgmcmc, Copyright (c) 2019 Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen and Andrew Gordon Wilson
+- Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs, https://github.com/timgaripov/dnn-mode-connectivity, Copyright (c) 2018  Timur Garipov, Pavel Izmailov, Dmitrii Podoprikhin, Dmitry Vetrov and Andrew Gordon Wilson
 - PyTorch, https://github.com/pytorch/pytorch, Copyright (c) 2016-present, Facebook Inc
 
 Redistribution and use in source and binary forms, with or without
