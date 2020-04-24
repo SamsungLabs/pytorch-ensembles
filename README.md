@@ -117,7 +117,7 @@ bash train/train_imagenet.sh --method regular/sse/fge/vi
 
 We strongly recommend using multi-gpu training for Snapshot Ensembles. 
 
-# Attribution
+## Attribution
 
 Parts of this code are based on the following repositories:
 - [Stochastic Weight Averaging (SWA)](https://github.com/timgaripov/swa). Pavel Izmailov, Dmitrii Podoprikhin, Timur Garipov, Dmitry Vetrov, Andrew Gordon Wilson.
@@ -127,7 +127,7 @@ Parts of this code are based on the following repositories:
 - [PyTorch](https://github.com/pytorch/pytorch)
 - [PyTorch Examples](https://github.com/pytorch/examples/tree/ee964a2/imagenet)
 
-# Citation
+## Citation
 
 If you found this code useful, please cite our paper
 ```
