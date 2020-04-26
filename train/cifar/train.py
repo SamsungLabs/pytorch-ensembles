@@ -109,7 +109,7 @@ for epoch in range(start_epoch, args.epochs):
     lr = schedule(epoch)
     utils.adjust_learning_rate(optimizer, lr)
     train_res = utils.train_epoch(loaders['train'], model, criterion, optimizer)
-    test_res = {'loss': None, 'accuracy': None}
+    test_res = utils.eval(loaders['test'], model, criterion)
 
     time_ep = time.time() - time_ep
     values = [epoch + 1, lr, train_res['loss'], train_res['accuracy'], test_res['loss'], test_res['accuracy'], time_ep]

@@ -136,8 +136,6 @@ for epoch in range(start_epoch, args.epochs):
         loaders['train'], model, criterion,
         optimizer1, args.beta, # if epoch > args.epochs/2 else 0,
         optvar)
-    test_res = {'loss': None, 'accuracy': None}
-
     test_res = utils.eval(loaders['test'], model, criterion)
 
     time_ep = time.time() - time_ep

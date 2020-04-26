@@ -9,7 +9,7 @@ The work is done at:
 3. National Research University Higher School of Economics
 4. Skolkovo Institute of Science and Technology
 
-## Environment Setup:
+## Environment Setup
 
 The following allows to create and to run a python environment with all required dependencies using [miniconda](https://docs.conda.io/en/latest/miniconda.html): 
 
@@ -48,7 +48,7 @@ optional arguments:
 * All scripts assume that `pytorch-ensembles` is the current working directory (`cd  pytorch-ensembles`).
 * The scripts will write .csv logs in `pytorch-ensembles/logs` in the following format `rowid, dataset, architecture, ensemble_method, n_samples, metric, value, info`. 
 * The [notebooks](./notebooks) folder contains ipython notebooks to reproduce the tables and plots using these logs
-* The scripts will write final log-probs of every method in '.npy' format to `pytorch-ensembles/megacache` folder. 
+* The scripts will write final log-probs of every method in '.npy' format to `pytorch-ensembles/.megacache` folder. 
 * The interface for K-FAC-Laplace differs and is described below.
 
 Examples:
@@ -117,7 +117,17 @@ bash train/train_imagenet.sh --method regular/sse/fge/vi
 
 We strongly recommend using multi-gpu training for Snapshot Ensembles. 
 
-# Citation
+## Attribution
+
+Parts of this code are based on the following repositories:
+- [Stochastic Weight Averaging (SWA)](https://github.com/timgaripov/swa). Pavel Izmailov, Dmitrii Podoprikhin, Timur Garipov, Dmitry Vetrov, Andrew Gordon Wilson.
+- [A Simple Baseline for Bayesian Deep Learning](https://github.com/wjmaddox/swa_gaussian). Wesley Maddox, Timur Garipov, Pavel Izmailov,  Dmitry Vetrov, Andrew Gordon Wilson.
+- [Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning](https://github.com/ruqizhang/csgmcmc). Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen and Andrew Gordon Wilson.
+- [Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs](https://github.com/timgaripov/dnn-mode-connectivity).  Timur Garipov, Pavel Izmailov, Dmitrii Podoprikhin, Dmitry Vetrov and Andrew Gordon Wilson.
+- [PyTorch](https://github.com/pytorch/pytorch)
+- [PyTorch Examples](https://github.com/pytorch/examples/tree/ee964a2/imagenet)
+
+## Citation
 
 If you found this code useful, please cite our paper
 ```
