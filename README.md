@@ -1,5 +1,7 @@
 The official PyTorch implementation of:  
-**Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning**, ICLR'20 [Paper](https://openreview.net/forum?id=BJxI5gHKDr) [Blog](https://senya-ashukha.github.io/pitfalls-uncertainty&ensembling)
+**Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning**, ICLR'20 
+
+[Paper](https://openreview.net/forum?id=BJxI5gHKDr) / [Blog](https://senya-ashukha.github.io/pitfalls-uncertainty&ensembling) / [Poster video (5mins)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html)
 
 Arsenii Ashukha* (1, 2), Alexander Lyzhov* (1, 4, 3), Dmitry Molchanov* (1, 2) and Dmitry Vetrov (2, 1)
 
@@ -8,6 +10,11 @@ The work is done at:
 2. Samsung-HSE: Samsung-HSE Lab, National Research University Higher School of Economics
 3. National Research University Higher School of Economics
 4. Skolkovo Institute of Science and Technology
+
+## Poster video (5 mins)
+
+[![ICLR 2020 Poster Presentation by Dmitry Molchanov](https://senya-ashukha.github.io/projects/pitfalls_unc_ens_iclr20/poster_prew.png)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html)
+
 
 ## Environment Setup
 
