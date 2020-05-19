@@ -13,8 +13,7 @@ The work is done at:
 
 ## Poster video (5 mins)
 
-[![ICLR 2020 Poster Presentation by Dmitry Molchanov](https://senya-ashukha.github.io/projects/pitfalls_unc_ens_iclr20/poster_prew.png)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html){:target="_blank"}
-
+[![ICLR 2020 Poster Presentation by Dmitry Molchanov](https://senya-ashukha.github.io/projects/pitfalls_unc_ens_iclr20/poster_prew.png)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html)
 
 ## Environment Setup
 
