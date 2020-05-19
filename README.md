@@ -1,7 +1,7 @@
 The official PyTorch implementation of:  
 **Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning**, ICLR'20 
 
-[Paper](https://openreview.net/forum?id=BJxI5gHKDr) / [Blog](https://senya-ashukha.github.io/pitfalls-uncertainty&ensembling) / [Poster video (5mins)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html)
+[Paper](https://openreview.net/forum?id=BJxI5gHKDr) / [Blog](https://senya-ashukha.github.io/pitfalls-uncertainty&ensembling) / [Poster video (5 mins)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html)
 
 ## Poster video (5 mins)
 
