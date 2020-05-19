@@ -6,8 +6,8 @@ The official PyTorch implementation of:
 Arsenii Ashukha* (1, 2), Alexander Lyzhov* (1, 4, 3), Dmitry Molchanov* (1, 2) and Dmitry Vetrov (2, 1)
 
 The work is done at:
-1. SAIC-M: Samsung AI Center Moscow
-2. Samsung-HSE: Samsung-HSE Lab, National Research University Higher School of Economics
+1. Samsung AI Center Moscow
+2. Samsung-HSE Lab, National Research University Higher School of Economics
 3. National Research University Higher School of Economics
 4. Skolkovo Institute of Science and Technology
 
