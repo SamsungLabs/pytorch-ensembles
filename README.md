@@ -1,7 +1,11 @@
 The official PyTorch implementation of:  
 **Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning**, ICLR'20 
 
-[Paper](https://openreview.net/forum?id=BJxI5gHKDr) / [Blog](https://senya-ashukha.github.io/pitfalls-uncertainty&ensembling) / [Poster video (5 mins)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html)
+[Paper](https://openreview.net/forum?id=BJxI5gHKDr) / 
+[Blog](https://senya-ashukha.github.io/pitfalls-uncertainty&ensembling) / 
+[Poster video (5 mins)](https://iclr.cc/virtual_2020/poster_BJxI5gHKDr.html) / 
+[arXiv](https://arxiv.org/abs/2002.06470) / 
+[bibtex](https://senya-ashukha.github.io/projects/pitfalls_unc_ens_iclr20/paper.txt)
 
 ## Poster video (5 mins)
 
@@ -129,12 +133,10 @@ Parts of this code are based on the following repositories:
 
 If you found this code useful, please cite our paper
 ```
-@inproceedings{
-    ashukha2020pitfalls,
-    title={Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning},
-    author={Arsenii Ashukha and Alexander Lyzhov and Dmitry Molchanov and Dmitry Vetrov},
-    booktitle={International Conference on Learning Representations},
-    year={2020},
-    url={https://openreview.net/forum?id=BJxI5gHKDr}
+@article{ashukha2020pitfalls,
+  title={Pitfalls of In-Domain Uncertainty Estimation and Ensembling in Deep Learning},
+  author={Ashukha, Arsenii and Lyzhov, Alexander and Molchanov, Dmitry and Vetrov, Dmitry},
+  journal={arXiv preprint arXiv:2002.06470},
+  year={2020}
 }
 ```
