@@ -20,11 +20,14 @@ conda env create -f condaenv.yml
 conda activate megabayes
 ```
 
-### Logs, Plots, Tables
+### Logs, Plots, Tables, Pre-trained weights
 
 At the [notebooks](./notebooks) folder we provide:
 - Saved logs with all computed results 
 - Examples of ipython notebooks to reproduce plots, tables, and compute the deep ensemble equivalent (DEE) score
+
+Pre-trained weights of of deep ensembles are available at [ImageNet](https://yadi.sk/d/rdk6ylF5mK8ptw?w=1) and [CIFARs]().
+Pre-trained weights for other models can be provided on the request (make an issue if you need some models).
 
 ### Evaluation
 
