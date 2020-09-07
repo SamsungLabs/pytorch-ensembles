@@ -29,6 +29,19 @@ At the [notebooks](./notebooks) folder we provide:
 Pre-trained weights of of deep ensembles are available at [ImageNet (~10G)](https://yadi.sk/d/rdk6ylF5mK8ptw?w=1) and [CIFARs (~62G)](https://yadi.sk/d/8C5jBz-licWMqQ?w=1).
 Pre-trained weights for other models can be provided on the request---make an issue if you need some specific models.
 
+The weights can be download from command line interface by [yadisk-direct](https://github.com/wldhx/yadisk-direct):
+```
+pip3 install wldhx.yadisk-direct
+
+% ImageNet
+curl -L $(yadisk-direct https://yadi.sk/d/rdk6ylF5mK8ptw?w=1) -o deepens_imagenet.zip
+unzip deepens_imagenet.zip 
+
+% CIFARs
+curl -L $(yadisk-direct https://yadi.sk/d/8C5jBz-licWMqQ?w=1) -o deepens_cifars.zip
+unzip deepens_cifars.zip 
+```
+
 ### Evaluation
 
 The evaluation of ensembling methods can be done using the scripts from the [ens](./ens) folder, which contains a separate script for each ensembling method.
