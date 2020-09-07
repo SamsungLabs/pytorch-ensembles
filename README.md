@@ -30,7 +30,7 @@ Pre-trained weights of of deep ensembles are available at [ImageNet (~10G)](http
 Pre-trained weights for other models can be provided on the request---make an issue if you need some specific models.
 
 The weights can be download from command line interface by [yadisk-direct](https://github.com/wldhx/yadisk-direct):
-```
+```(bash)
 pip3 install wldhx.yadisk-direct
 
 % ImageNet
