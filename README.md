@@ -26,7 +26,7 @@ At the [notebooks](./notebooks) folder we provide:
 - Saved logs with all computed results 
 - Examples of ipython notebooks to reproduce plots, tables, and compute the deep ensemble equivalent (DEE) score
 
-Pre-trained weights of of deep ensembles are available at [link](https://yadi.sk/d/qwwESfJkkO48Bw?w=1): [ImageNet (~10G)](https://yadi.sk/d/rdk6ylF5mK8ptw?w=1) and [CIFARs (~62G)](https://yadi.sk/d/8C5jBz-licWMqQ?w=1). The weights can be also download with a command line interface by [yadisk-direct](https://github.com/wldhx/yadisk-direct):
+Pre-trained weights of of some models are available at [link](https://yadi.sk/d/qwwESfJkkO48Bw?w=1): [Deep Ensembles on ImageNet (~10G)](https://yadi.sk/d/rdk6ylF5mK8ptw?w=1) and [Deep Ensembles on CIFARs (~62G)](https://yadi.sk/d/8C5jBz-licWMqQ?w=1), etc. The weights can be also download with a command line interface by [yadisk-direct](https://github.com/wldhx/yadisk-direct):
 ```(bash)
 pip3 install wldhx.yadisk-direct
 
