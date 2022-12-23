@@ -5,7 +5,7 @@ BASE_DIR=$4
 DATA_PATH=$5
 METHOD=$6
 
-if [ $3 == "SSE" ];
+if [ $METHOD == "SSE" ];
 then
   INJECT_NOISE_OR_NOT=""
   MAX_LR=0.2
@@ -24,7 +24,7 @@ else
   NOISE_EPOCHS=3
 fi
 
-if [ $2 == "PreResNet110" ] || [ "$2" == "PreResNet164" ];
+if [ $ARCH == "PreResNet110" ] || [ $ARCH == "PreResNet164" ];
 then
   WD=3e-4
 else
